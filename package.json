@@ -1,0 +1,30 @@
+{
+  "name": "k-rishabh.github.io",
+  "version": "1.0.0",
+  "description": "Personal homepage and portfolio of Rishabh Kumar (CS5610 Project 1)",
+  "type": "module",
+  "private": true,
+  "author": "Rishabh Kumar",
+  "license": "MIT",
+  "homepage": "https://k-rishabh.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-rishabh/k-rishabh.github.io.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.0.0"
+  }
+}
