@@ -220,7 +220,8 @@ main {
 }
 
 .project-card__image {
-  height: auto;
+  height: 300px;
+  object-fit: contain; 
 }
 
 .project-card__tag {
